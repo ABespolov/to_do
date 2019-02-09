@@ -1,0 +1,22 @@
+
+.addTodoInput{
+    border-radius: 3px;
+    border: none;
+    padding: 10px;
+    width: 75%;
+}
+
+.addTodoButton{
+    margin-left: 15px;
+    height: 35px;
+    width: 80px;
+    font-family: 'Fira Sans', sans-serif;
+    cursor: pointer;
+    border-radius: 3px;
+    background: #fff;
+    border: none;
+}
+
+.addTodoButton:hover{
+    background: aliceblue;
+}

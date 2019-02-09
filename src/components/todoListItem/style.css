@@ -1,0 +1,48 @@
+
+.todoListItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+.manageTaskPanel .taskPanelButton{
+    padding: 7px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    display: inline-block;
+    width: 15px;
+    text-align: center;
+}
+
+.taskPanelButton{
+    position: relative;
+    z-index: 10;
+}
+
+.manageTaskPanel .taskPanelButton:first-child{
+    margin-right: 10px;
+    color: #b30000;
+    border-color: #b30000;
+}
+
+.manageTaskPanel .taskPanelButton:first-child:hover{
+    background: rgba(179, 0, 0, 0.21);
+}
+
+.manageTaskPanel .taskPanelButton:last-child{
+    color: #005a00;
+    border-color: #005a00;
+}
+
+.manageTaskPanel .taskPanelButton:last-child:hover{
+    background: rgba(0, 90, 0, 0.22);
+}
+
+.done{
+    text-decoration: line-through;
+}
+
+.important{
+    font-weight: bold;
+}

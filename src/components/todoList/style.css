@@ -1,0 +1,20 @@
+
+.taskList{
+    list-style: none;
+    padding-left: 0;
+}
+
+.taskList li{
+    cursor: pointer;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.taskList li:hover, .filterButton:hover{
+    background: aliceblue;
+}
+
+.taskList li:not(:last-child){
+    border-bottom: none;
+    margin-bottom: 5px;
+}

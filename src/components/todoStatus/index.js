@@ -1,8 +1,8 @@
 import React from 'react';
 import './style.css';
 
-const TodoStatus = () =>{
-    return <p className="todoStatus">1 more to do, 3 done</p>;
+const TodoStatus = ({todo, done}) =>{
+    return <p className="todoStatus">{todo} more to do, {done} done</p>;
 }
 
 export default TodoStatus;
